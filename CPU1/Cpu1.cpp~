@@ -44,7 +44,7 @@ void CPU::program_execute()
 	float op1, op2, result;
 	int i;
 	vector<string> instructions;
-	char first = instructions.begin();					//its gonna point to the first element of instructions
+	int first = instructions.begin();					//its gonna point to the first element of instructions
 	ifstream file_("Program.txt");
 	if(file_.is_open())
 	{
